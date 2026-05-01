@@ -16,11 +16,12 @@
 2. [Activity & Visibility Controls](#activity--visibility-controls)
 3. [Story & Content Privacy](#story--content-privacy)
 4. [Messages & Interactions](#messages--interactions)
-5. [Data & Personalization](#data--personalization)
-6. [Security Settings](#security-settings)
-7. [Third-Party Access](#third-party-access)
-8. [iOS-Specific Privacy Settings](#ios-specific-privacy-settings)
-9. [Android-Specific Privacy Settings](#android-specific-privacy-settings)
+5. [Accounts Center Privacy Settings](#accounts-center-privacy-settings)
+6. [Data & Personalization](#data--personalization)
+7. [Security Settings](#security-settings)
+8. [Third-Party Access](#third-party-access)
+9. [iOS-Specific Privacy Settings](#ios-specific-privacy-settings)
+10. [Android-Specific Privacy Settings](#android-specific-privacy-settings)
 
 ---
 
@@ -340,10 +341,211 @@
 
 ---
 
+## Accounts Center Privacy Settings
+
+> **About Accounts Center:** Meta's centralized hub for managing privacy settings across Instagram, Facebook, Messenger, and other Meta platforms. Settings here often override individual app settings.
+
+**How to Access:** Profile → ☰ (Menu) → Settings and privacy → Accounts Center
+
+---
+
+### Personal Details & Visibility (Accounts Center)
+**Navigation:** Profile → ☰ → Settings → Accounts Center → Personal details  
+**Steps:**
+1. Tap profile → ☰ → Settings and privacy
+2. Tap "Accounts Center"
+3. Tap "Personal details"
+4. Review and manage:
+   - **Contact info:** Email, phone number (tap to edit or remove)
+   - **Name:** Your display name across Meta accounts
+   - **Birthday:** Date of birth (tap "Who can see your birthday" to control visibility)
+   - **Gender:** How you identify (tap to make private)
+5. For each item, tap "Who can see your [detail]" and select:
+   - **Only you** (most private)
+   - **Friends** (moderate)
+   - **Public** (not recommended)
+
+**What it does:**
+- Controls visibility of personal information across all Meta accounts
+- Email and phone can be used to find your account (hide if you want privacy)
+- Birthday visibility affects who sees it on your profile
+- **Recommended:** Set all to "Only you" for maximum privacy
+
+---
+
+### Sharing Across Profiles (Accounts Center)
+**Navigation:** Profile → ☰ → Settings → Accounts Center → Sharing across profiles  
+**Steps:**
+1. Settings → Accounts Center → Sharing across profiles
+2. Review and disable the following:
+
+**Story Sharing:**
+- Tap "Story sharing"
+- Toggle OFF "Share to Facebook" (prevents automatic cross-posting)
+- Toggle OFF "Share to Messenger" if available
+
+**Reels Sharing:**
+- Tap "Reels sharing"
+- Toggle OFF "Recommend on Facebook" (keeps reels Instagram-only)
+
+**Profile Info Sharing:**
+- Tap "Profile sharing" or "Connected experiences"
+- Toggle OFF all cross-platform connections
+
+**Activity Sharing:**
+- Look for "Share activity between accounts"
+- Toggle OFF to prevent activity syncing
+
+**What it does:**
+- Prevents automatic cross-posting to Facebook
+- Stops Meta from syncing your Instagram activity to Facebook
+- Keeps your Instagram and Facebook identities separate
+- Reduces data correlation across platforms
+- **Recommended:** Disable all sharing across profiles
+
+---
+
+### Your Activity Off Meta Technologies
+**Navigation:** Profile → ☰ → Settings → Accounts Center → Your information and permissions → Your activity off Meta technologies  
+**Steps:**
+1. Settings → Accounts Center
+2. Tap "Your information and permissions"
+3. Tap "Your activity off Meta technologies"
+4. Review the list of apps and websites tracking you
+5. Tap "Clear history" to disconnect past activity
+6. Tap "Manage future activity"
+7. Toggle OFF "Future off-Meta activity"
+8. Select "Disconnect future activity" for Instagram (and Facebook if connected)
+
+**What it does:**
+- Shows apps/websites with Meta Pixel or SDK that track you
+- Examples: shopping sites, news sites, apps with Facebook login
+- Clearing history prevents Instagram from linking past browsing to your account
+- Disabling future activity stops new tracking
+- **Important:** This is one of the BIGGEST privacy settings
+- **Recommended:** Clear history monthly and keep future activity OFF
+
+**What's tracked without this:**
+- Websites you visit with Meta Pixel
+- Products you view/purchase on other sites
+- Apps you use that integrate Facebook/Instagram SDKs
+- Links you click in Instagram (tracked via in-app browser)
+
+---
+
+### Ad Preferences (Accounts Center)
+**Navigation:** Profile → ☰ → Settings → Accounts Center → Ad preferences  
+**Steps:**
+1. Settings → Accounts Center → Ad preferences
+2. Tap "Ad settings"
+3. Review and disable:
+   - **Data about your activity from partners:** Toggle OFF
+   - **Categories used to reach you:** Tap, review lists uploaded by advertisers, hide unwanted
+   - **Advertisers:** Tap, hide specific advertisers you don't want targeting you
+   - **Ad topics:** Select topics to "See less" of
+4. Tap "How ads work"
+5. Review but note: can't fully disable ads, only limit personalization
+
+**Additional settings:**
+- **Audience-based advertising:** If available, toggle OFF
+- **Ads based on partnerships:** Toggle OFF
+- **Ads using your activity information:** Limit or disable if option available
+
+**What it does:**
+- Limits ad targeting based on data from third-party partners
+- Prevents advertisers from using uploaded customer lists to find you
+- Reduces personalized/targeted advertising
+- Makes ads more generic (still shows ads, just less creepy)
+- **Recommended:** Disable all partner data and audience-based advertising
+
+---
+
+### Account Status and Removal (Accounts Center)
+**Navigation:** Profile → ☰ → Settings → Accounts Center → Personal details → Account ownership and control  
+**Steps:**
+1. Settings → Accounts Center → Personal details
+2. Scroll down to "Account ownership and control"
+3. Options available:
+
+**Deactivation:**
+- Tap "Deactivation or deletion"
+- Select "Deactivate account"
+- Choose Instagram
+- Select reason
+- Confirm (account is hidden but not deleted, can reactivate anytime)
+
+**Deletion:**
+- Tap "Deactivation or deletion"
+- Select "Permanently delete account"
+- Choose Instagram
+- Enter password
+- Confirm (account deleted after 30-day grace period)
+
+**Download Before Deleting:**
+- Always download your data first (see below)
+- Deletion is permanent after grace period
+
+**What it does:**
+- **Deactivate:** Temporarily hides profile, posts, comments (reversible)
+- **Delete:** Permanently removes account after 30 days (irreversible)
+- **Recommended:** Deactivate first to test, delete only if sure
+
+---
+
+### Password and Security (Accounts Center)
+**Navigation:** Profile → ☰ → Settings → Accounts Center → Password and security  
+**Steps:**
+1. Settings → Accounts Center → Password and security
+2. Configure centralized security settings:
+
+**Change Password:**
+- Tap "Change password"
+- Select Instagram (or apply to all Meta accounts)
+- Enter current password
+- Enter new strong password
+- Confirm
+
+**Two-Factor Authentication:**
+- Tap "Two-factor authentication"
+- See dedicated 2FA section below for full setup
+- Configure for all connected accounts or Instagram only
+
+**Encryption:**
+- Tap "End-to-end encrypted chats" (if available)
+- Review which conversations are encrypted
+- Note: Not all Instagram DMs are encrypted by default
+
+**What it does:**
+- Centralizes security settings across Meta accounts
+- Allows using same password for multiple accounts (not recommended)
+- OR setting different passwords per platform (recommended)
+- **Recommended:** Use unique passwords for Instagram vs. Facebook
+
+---
+
+### Who Can See What You Share (Accounts Center)
+**Navigation:** Profile → ☰ → Settings → Accounts Center → Audience and visibility  
+**Steps:**
+1. Settings → Accounts Center
+2. Look for "Audience and visibility" or "Who can see what you share"
+3. If available, configure:
+   - **Default audience:** Who sees future posts by default
+   - **Profile visibility:** Public vs. private across platforms
+   - **Search visibility:** Whether your profile appears in searches
+4. Note: Instagram-specific settings (private account) may override these
+
+**What it does:**
+- Sets default visibility across Meta platforms
+- May affect Facebook more than Instagram
+- Instagram's private account setting usually takes precedence
+- **Recommended:** Set most restrictive, rely on Instagram app settings for Instagram-specific control
+
+---
+
 ## Data & Personalization
 
-### Download Your Data
-**Navigation:** Profile → ☰ → Settings → Accounts Center → Your information and permissions  
+### Download Your Data (Accounts Center)
+**Navigation:** Profile → ☰ → Settings → Accounts Center → Your information and permissions → Download your information  
 **Steps:**
 1. Tap profile → ☰ → Settings
 2. Tap "Accounts Center" at the bottom
@@ -622,6 +824,70 @@
 
 ---
 
+### Disable WiFi Network Tracking (iOS)
+**Navigation:** iPhone Settings → Privacy & Security → Location Services → System Services  
+**Steps:**
+1. iOS Settings → Privacy & Security
+2. Tap "Location Services"
+3. Scroll to bottom, tap "System Services"
+4. Disable:
+   - **Wi-Fi Networking** (prevents location tracking via WiFi networks)
+   - **Networking & Wireless** (limits network-based tracking)
+5. For Instagram specifically, go back to Location Services
+6. Find "Instagram"
+7. Select "Never" or "Ask Next Time Or When I Share"
+8. Toggle OFF "Precise Location"
+
+**What it does:**
+- Prevents iOS from using WiFi networks to determine your location
+- Instagram can't access WiFi-based location data
+- Disabling precise location gives approximate location only (city-level)
+- **Recommended:** Disable WiFi networking tracking, set Instagram to "Never" for location
+
+---
+
+### Control Mobile Data Usage (iOS)
+**Navigation:** iPhone Settings → Instagram (or Settings → Cellular)  
+**Steps:**
+
+**Method 1 - Instagram-specific:**
+1. iOS Settings → Instagram
+2. Toggle "Cellular Data" to OFF (Instagram only works on WiFi)
+
+**Method 2 - Global cellular control:**
+1. iOS Settings → Cellular (or Mobile Data)
+2. Scroll to "Instagram"
+3. Toggle OFF to prevent cellular data usage
+4. Alternatively, enable "Low Data Mode" for the cellular plan:
+   - Settings → Cellular → Cellular Data Options
+   - Toggle "Low Data Mode" ON
+
+**What it does:**
+- Prevents Instagram from using mobile/cellular data
+- Forces Instagram to work only on WiFi
+- Low Data Mode reduces background activity and automatic downloads
+- Saves data and prevents background tracking on cellular networks
+- **Recommended:** Enable Low Data Mode or disable cellular data entirely for Instagram
+
+---
+
+### Disable Background App Refresh (iOS)
+**Navigation:** iPhone Settings → General → Background App Refresh  
+**Steps:**
+1. iOS Settings → General
+2. Tap "Background App Refresh"
+3. Option 1: Tap "Background App Refresh" at top → Select "Off" (disables for all apps)
+4. Option 2: Scroll to "Instagram" → Toggle OFF (disables only for Instagram)
+
+**What it does:**
+- Prevents Instagram from refreshing content when app is closed
+- Stops background data collection and tracking
+- Reduces battery drain and data usage
+- Instagram won't update feed/stories until you open the app
+- **Recommended:** Disable for Instagram (or all apps) for maximum privacy
+
+---
+
 ## Android-Specific Privacy Settings
 
 ### Disable Instagram's Access to Android Features
@@ -680,6 +946,74 @@
 
 ---
 
+### Disable WiFi and Network Scanning (Android)
+**Navigation:** Android Settings → Location → Location services → Wi-Fi scanning  
+**Steps:**
+1. Android Settings → Location
+2. Tap "Location services" or "Advanced" (varies by device)
+3. Find and tap "Wi-Fi scanning"
+4. Toggle OFF "Wi-Fi scanning"
+5. Go back, find "Bluetooth scanning"
+6. Toggle OFF "Bluetooth scanning"
+7. For Instagram location specifically:
+   - Settings → Apps → Instagram → Permissions → Location
+   - Select "Deny" or "Ask every time"
+   - If "Allow all the time" was enabled, change to "Deny"
+
+**What it does:**
+- Prevents Android from scanning WiFi networks for location even when WiFi is off
+- Stops Bluetooth scanning for nearby devices/beacons
+- Instagram can't access WiFi-based location data
+- Reduces passive background tracking
+- **Recommended:** Disable both WiFi and Bluetooth scanning, deny Instagram location access
+
+---
+
+### Control Mobile Data Usage (Android)
+**Navigation:** Android Settings → Apps → Instagram → Mobile data & Wi-Fi  
+**Steps:**
+
+**Method 1 - Instagram-specific:**
+1. Android Settings → Apps → Instagram
+2. Tap "Mobile data & Wi-Fi" (or "Data usage")
+3. Toggle OFF "Mobile data" (Instagram only works on WiFi)
+4. Toggle OFF "Background data" (prevents background data usage)
+5. Toggle OFF "Unrestricted data usage"
+
+**Method 2 - Data Saver mode (global):**
+1. Android Settings → Network & internet → Data Saver
+2. Toggle "Use Data Saver" to ON
+3. This restricts background data for all apps
+4. Add exceptions for essential apps (not Instagram)
+
+**What it does:**
+- Prevents Instagram from using mobile/cellular data
+- Forces Instagram to work only on WiFi
+- Disabling background data stops tracking when app is closed
+- Data Saver mode reduces overall data usage system-wide
+- **Recommended:** Disable mobile data and background data for Instagram
+
+---
+
+### Restrict Background Data & Battery Usage (Android)
+**Navigation:** Android Settings → Apps → Instagram → Battery  
+**Steps:**
+1. Android Settings → Apps → Instagram
+2. Tap "Battery" or "Battery usage"
+3. Select "Restricted" (prevents background activity)
+4. Confirm the restriction
+5. Alternatively, tap "App battery usage" → "Restricted"
+
+**What it does:**
+- Prevents Instagram from running in background
+- Stops background data collection and tracking
+- Reduces battery drain
+- Instagram won't update until you actively open it
+- May delay notifications (which is good for privacy)
+- **Recommended:** Set to "Restricted" for maximum privacy
+
+---
+
 ## Quick Privacy Checklist
 
 ### Essential Privacy Settings (Do First):
@@ -691,24 +1025,41 @@
 - ✅ Disable resharing posts to stories
 - ✅ Hide story from specific people (as needed)
 - ✅ Enable comment filtering
+- ✅ Disable location access (both in-app and OS settings)
+- ✅ Disable WiFi/network scanning (OS settings)
+
+### Accounts Center Critical Settings:
+- ✅ Disable "Future off-Meta activity" tracking
+- ✅ Clear off-Meta activity history
+- ✅ Disable all "Sharing across profiles"
+- ✅ Disable "Data from partners" in ad preferences
+- ✅ Set personal details to "Only you"
+- ✅ Review and hide advertiser categories
 
 ### Data & Device Settings:
 - ✅ Disable location access (iOS Settings or Android Settings)
+- ✅ Disable WiFi and network scanning (OS settings)
+- ✅ Restrict mobile/cellular data usage
+- ✅ Disable background app refresh (iOS) or background data (Android)
 - ✅ Limit photo access to "Selected Photos" (iOS) or specific folders (Android)
 - ✅ Disable ad tracking (iOS) or delete advertising ID (Android)
 - ✅ Turn off "Show activity status"
 - ✅ Clear search history monthly
 - ✅ Limit ad personalization
+- ✅ Disable "Off-Meta technologies" tracking
 
 ### Security Maintenance:
-- **Monthly:** Review login activity, clear search history, check tagged photos
-- **Quarterly:** Review connected apps, audit followers, review permissions
+- **Monthly:** Review login activity, clear search history, check tagged photos, **clear off-Meta activity**
+- **Quarterly:** Review connected apps, audit followers, review permissions, **review Accounts Center settings**
 - **Semi-annually:** Change password, download your data, review blocked accounts
 - **Ongoing:** Remove unwanted tags, restrict/block problematic accounts
 
 ### Maximum Privacy Configuration:
 - ✅ Private account
-- ✅ No location access
+- ✅ No location access (app + OS level)
+- ✅ WiFi/network scanning disabled (OS level)
+- ✅ Mobile data disabled OR restricted (WiFi only)
+- ✅ Background app refresh/data disabled
 - ✅ Tags/mentions: "No one" or "Manual approval only"
 - ✅ Story replies: "Off"
 - ✅ Activity status: Off
@@ -717,6 +1068,8 @@
 - ✅ 2FA: Enabled with authenticator app
 - ✅ Third-party apps: All removed
 - ✅ Ad tracking: Disabled at OS level
+- ✅ Advertising ID: Deleted (Android)
+- ✅ Off-Meta tracking: Cleared and disabled
 - ✅ Close Friends list for sensitive stories
 
 ---
