@@ -3,7 +3,7 @@
 ## Quick Start
 
 ```bash
-./chrome-privacy-launch.sh
+./chrome_script.sh
 ```
 
 This script launches Chrome with maximum privacy settings, disabling:
@@ -208,7 +208,7 @@ For maximum privacy, consider:
 
 ### Chrome won't launch
 - Check Chrome installation path in script
-- Verify script has execute permissions: `chmod +x chrome-privacy-launch.sh`
+- Verify script has execute permissions: `chmod +x chrome-script.sh`
 
 ### Websites not working
 Some features are disabled for privacy. To fix:
@@ -223,19 +223,15 @@ The script runs Chrome in the background. It will stay open until you close Chro
 
 ### Regular Launch
 ```bash
-./chrome-privacy-launch.sh
+./chrome-script.sh
 ```
 
 ### Open specific URL
 ```bash
-./chrome-privacy-launch.sh https://duckduckgo.com
+./chrome-script.sh https://duckduckgo.com
 ```
 ### Run without incognito (edit script first)
 Remove the `--incognito \` line from the script.
 
 
 This script is provided as-is for privacy-conscious users. Use at your own risk.
-
----
-
-**Last Updated**: May 2026
