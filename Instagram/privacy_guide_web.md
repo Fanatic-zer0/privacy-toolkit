@@ -15,9 +15,10 @@
 2. [Activity & Visibility Controls](#activity--visibility-controls)
 3. [Story & Content Privacy](#story--content-privacy)
 4. [Messages & Interactions](#messages--interactions)
-5. [Data & Personalization](#data--personalization)
-6. [Security Settings](#security-settings)
-7. [Third-Party Access](#third-party-access)
+5. [Accounts Center Privacy Settings](#accounts-center-privacy-settings)
+6. [Data & Personalization](#data--personalization)
+7. [Security Settings](#security-settings)
+8. [Third-Party Access](#third-party-access)
 
 ---
 
@@ -229,9 +230,291 @@
 
 ---
 
+## Accounts Center Privacy Settings
+
+> **About Accounts Center:** Meta's centralized hub for managing privacy settings across Instagram, Facebook, Messenger, and other Meta platforms. Settings here often override individual app settings.
+
+**How to Access:** Settings → See more in Accounts Center (bottom of left sidebar)
+
+---
+
+### Personal Details & Visibility (Accounts Center)
+**Navigation:** Settings → Accounts Center → Personal details  
+**Steps:**
+1. Click Settings (from profile menu)
+2. Click "See more in Accounts Center" (bottom of left sidebar)
+3. Click "Personal details"
+4. Review and manage:
+   - **Contact info:** Email addresses, phone numbers (click to edit or remove)
+   - **Name:** Your display name across Meta accounts
+   - **Birthday:** Date of birth (click "Who can see your birthday" to control)
+   - **Gender:** How you identify (click to make private)
+5. For each item, click "Who can see your [detail]" and select:
+   - **Only you** (most private)
+   - **Friends** (moderate)
+   - **Public** (not recommended)
+
+**What it does:**
+- Controls visibility of personal information across all Meta accounts
+- Email and phone can be used by others to find your account
+- Birthday visibility affects calendar notifications and profile display
+- Gender affects ad targeting
+- **Recommended:** Set all to "Only you" for maximum privacy, consider removing phone number
+
+---
+
+### Sharing Across Profiles (Accounts Center)
+**Navigation:** Settings → Accounts Center → Sharing across profiles  
+**Steps:**
+1. Settings → See more in Accounts Center
+2. Click "Sharing across profiles"
+3. Review and disable the following:
+
+**Story Sharing:**
+- Click "Story sharing"
+- Uncheck "Share to Facebook" (prevents automatic cross-posting)
+- Uncheck "Share to Messenger" if available
+
+**Reels Sharing:**
+- Click "Reels sharing"
+- Uncheck "Recommend on Facebook" (keeps reels Instagram-only)
+
+**Profile Info Sharing:**
+- Click "Profile sharing" or "Connected experiences"
+- Disable all cross-platform connections
+
+**Activity Sharing:**
+- Look for "Share activity between accounts"
+- Disable to prevent activity syncing
+
+**What it does:**
+- Prevents automatic cross-posting to Facebook
+- Stops Meta from syncing your Instagram activity to Facebook profile
+- Keeps your Instagram and Facebook identities separate
+- Reduces data correlation and profiling across platforms
+- Prevents friends from one platform seeing you on another automatically
+- **Recommended:** Disable all sharing across profiles for privacy compartmentalization
+
+---
+
+### Your Activity Off Meta Technologies (Accounts Center)
+**Navigation:** Settings → Accounts Center → Your information and permissions → Your activity off Meta technologies  
+**Steps:**
+1. Settings → See more in Accounts Center
+2. Click "Your information and permissions"
+3. Click "Your activity off Meta technologies"
+4. Review the comprehensive list of apps and websites tracking you:
+   - Shopping websites (e.g., retail sites with Meta Pixel)
+   - News websites and blogs
+   - Apps using Facebook Login or Instagram API
+   - Services with social media integration
+5. Click "Clear history" to disconnect all past activity from your account
+6. Click "Manage future activity" or "More options"
+7. Toggle OFF "Future off-Meta activity"
+8. Select "Disconnect future activity" for Instagram (and Facebook if connected)
+9. Confirm disconnection
+
+**What it does:**
+- **Shows extensive tracking:** Websites/apps with Meta Pixel, Conversions API, or SDK
+- **Clears past associations:** Prevents Instagram from using historical browsing data
+- **Stops future tracking:** Prevents new off-Instagram activity from being linked to your account
+- **What's tracked:**
+  - Products you view/purchase on e-commerce sites
+  - Articles you read on news sites
+  - Apps you use with Facebook/Instagram login
+  - Links clicked within Instagram's in-app browser
+  - Pages visited through Instagram ads
+- **Important:** This is one of the MOST IMPORTANT privacy settings
+- **Recommended:** Clear history monthly, keep future activity permanently OFF
+
+**Note:** Websites can still track you via other methods (Google Analytics, their own tracking), but won't send data to Meta.
+
+---
+
+### Ad Preferences (Accounts Center)
+**Navigation:** Settings → Accounts Center → Ad preferences  
+**Steps:**
+1. Settings → See more in Accounts Center
+2. Click "Ad preferences"
+3. Click "Ad settings"
+4. Review and disable ALL of the following:
+
+**Data from Partners:**
+- Click "Data about your activity from partners"
+- Toggle OFF or select "Don't allow"
+- This stops advertisers from using third-party data brokers to target you
+
+**Advertiser Categories:**
+- Click "Categories used to reach you"
+- Review lists of users uploaded by advertisers (customer match lists)
+- Click "Hide all" for each advertiser
+- Prevents targeting via uploaded email/phone lists
+
+**Advertiser Blocking:**
+- Click "Advertisers you've interacted with"
+- Hide specific advertisers: click "Hide ads" next to each
+- Block entire industries from advertising to you
+
+**Ad Topics:**
+- Click "Ad topics"
+- For each sensitive category, click "See less":
+  - Alcohol
+  - Dating
+  - Gambling
+  - Parenting
+  - Pets
+  - Weight loss
+  - (Any others you find invasive)
+
+**Social Interactions:**
+- Look for "Ads with social interactions" or "Ads based on friends' activity"
+- Disable to prevent ads like "Your friend Jane liked this"
+
+**Profile Information:**
+- Click "Information you allow us to use"
+- Review and disable use of:
+  - Employer/job title
+  - Education
+  - Relationship status
+  - Location (for ad targeting)
+
+5. Click "How ads work" to review (educational, can't change much here)
+
+**What it does:**
+- Severely limits ad targeting and profiling
+- Prevents use of third-party data brokers
+- Stops advertisers from uploading your info to find you
+- Makes ads much more generic and less personalized
+- Reduces "creepy" ads that know too much about you
+- **Note:** You'll still see ads (Instagram requires it), just less targeted
+- **Recommended:** Disable ALL partner data, advertiser categories, and social ad features
+
+---
+
+### Account Status and Removal (Accounts Center)
+**Navigation:** Settings → Accounts Center → Personal details → Account ownership and control  
+**Steps:**
+1. Settings → See more in Accounts Center
+2. Click "Personal details"
+3. Scroll to "Account ownership and control"
+4. Options available:
+
+**Deactivation (Temporary):**
+- Click "Deactivation or deletion"
+- Select "Deactivate account"
+- Choose Instagram from account list
+- Select a reason from dropdown
+- Click "Continue to account deactivation"
+- Confirm with password
+- **Effect:** Profile hidden, posts invisible, can reactivate anytime by logging in
+
+**Deletion (Permanent):**
+- Click "Deactivation or deletion"
+- Select "Permanently delete account"
+- Choose Instagram from account list
+- Read warnings about permanence
+- Select reason
+- Enter password
+- Click "Delete account"
+- **Effect:** 30-day grace period, then permanent deletion (unrecoverable)
+
+**Before Deleting:**
+- Download your data first (see Download Your Data section)
+- Save any photos/videos you want to keep
+- Export contacts/messages separately
+- Consider deactivation first to "test" life without Instagram
+
+**What it does:**
+- **Deactivate:** Temporarily hides everything, reversible instantly
+- **Delete:** Permanently removes account, photos, messages after 30 days
+- **Recommended:** Deactivate first for 30 days, delete only if certain
+
+---
+
+### Password and Security (Accounts Center)
+**Navigation:** Settings → Accounts Center → Password and security  
+**Steps:**
+1. Settings → See more in Accounts Center
+2. Click "Password and security"
+3. Configure centralized security:
+
+**Change Password:**
+- Click "Change password"
+- Select which accounts to update (Instagram only, or all Meta accounts)
+- Enter current password
+- Enter new strong password (12+ characters, mixed case, numbers, symbols)
+- Confirm new password
+- Click "Change password"
+- **Option 1:** Same password for all Meta accounts (easier but less secure)
+- **Option 2:** Different passwords per platform (more secure)
+
+**Two-Factor Authentication:**
+- Click "Two-factor authentication"
+- See dedicated 2FA section for full setup instructions
+- Can enable for all accounts or Instagram only
+- Choose authentication method (app recommended over SMS)
+
+**Encryption Settings:**
+- Click "End-to-end encrypted chats" (if available)
+- Review which conversations are encrypted
+- Enable for new conversations if available
+- **Note:** Not all Instagram DMs are end-to-end encrypted by default
+
+**Login Alerts:**
+- Click "Login alerts" or "Get alerts about unrecognized logins"
+- Enable email notifications
+- Enable push notifications
+- Get alerted when someone logs in from new device/location
+
+**What it does:**
+- Centralizes password management across Meta accounts
+- Allows unified security settings or per-platform customization
+- Provides cross-platform 2FA setup
+- **Recommended:** Use UNIQUE passwords for Instagram vs. Facebook (use password manager)
+
+---
+
+### Who Can See What You Share (Accounts Center)
+**Navigation:** Settings → Accounts Center → Audience and visibility  
+**Steps:**
+1. Settings → See more in Accounts Center
+2. Look for "Audience and visibility" or "Who can see what you share"
+3. If available, configure:
+
+**Default Audience:**
+- Click "Default audience"
+- Select who sees future posts by default:
+  - Public (not recommended for privacy)
+  - Friends/Followers (moderate)
+  - Custom (most control)
+- **Note:** Instagram's private account setting usually overrides this
+
+**Profile Visibility:**
+- Click "Profile visibility"
+- Control whether profile appears in:
+  - Search engines (Google, Bing)
+  - Platform searches (Instagram search)
+  - People You May Know suggestions
+
+**Search Visibility:**
+- Click "How people find you"
+- Control whether people can find you by:
+  - Email address
+  - Phone number
+  - Facebook friends
+- **Recommended:** Disable all for maximum privacy
+
+**What it does:**
+- Sets baseline visibility across Meta platforms
+- May affect Facebook more than Instagram (Instagram has separate controls)
+- Instagram's "Private Account" setting takes precedence for Instagram content
+- **Recommended:** Set most restrictive, rely on Instagram-specific settings for granular control
+
+---
+
 ## Data & Personalization
 
-### Download Your Data
+### Download Your Data (Accounts Center)
 **Navigation:** Settings → Accounts Center → Your information and permissions → Download your information  
 **Steps:**
 1. Settings → See more in Accounts Center
@@ -274,11 +557,19 @@
 4. Click "See less" for each unwanted category
 5. Go back and click "Advertisers you've interacted with"
 6. Hide ads from specific advertisers
+7. Click "Ad settings" or "About ads"
+8. Review and disable:
+   - "Ads based on data from partners"
+   - "Ads based on your activity on Meta technologies"
+   - "Personalized ads based on categories"
 
 **What it does:**
 - Reduces personalized ads based on your activity
-- Limits ad targeting based on specific topics
-- **Recommended:** Limit all sensitive ad categories
+- Limits ad targeting and profiling based on specific topics
+- Disables partner data sharing for ad targeting
+- Reduces cross-platform ad profiling between Instagram/Facebook
+- **Note:** You'll still see ads, just less personalized/targeted
+- **Recommended:** Disable all ad personalization options and limit all sensitive ad categories
 
 ---
 
@@ -390,14 +681,17 @@
 - ✅ Set message controls to "People you follow"
 - ✅ Enable comment filtering
 - ✅ Enable 2FA with authenticator app
-- ✅ Disable ad personalization where possible
+- ✅ Disable all ad personalization and partner data sharing
+- ✅ Disable ads based on Meta activity
 - ✅ Remove third-party app access
 - ✅ Clear search history monthly
+- ✅ Clear "Off-Meta" activity tracking
 - ✅ Review login activity monthly
+- ✅ Use browser privacy extensions (ad blockers, anti-tracking)
 
 ### Regular Maintenance:
-- **Monthly:** Clear search history, review login activity
-- **Quarterly:** Review and remove third-party apps
+- **Monthly:** Clear search history, review login activity, **clear off-Meta activity history**
+- **Quarterly:** Review and remove third-party apps, **review Accounts Center ad preferences**
 - **Semi-annually:** Change password, download your data
 - **Ongoing:** Remove unwanted tags, block/restrict problematic accounts
 
